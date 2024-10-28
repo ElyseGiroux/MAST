@@ -1,7 +1,7 @@
 <?php
   return [
     'meta' => [
-      'date-modified' => '2024-10-24',
+      'date-modified' => '2024-10-28',
       'title' => 'Marine Accelerator for Sustainable Technologies',
       'description' => 'Dedicated to leveraging the impact of Canada’s community of marine technology experts, researchers, entrepreneurs, and industry members to accelerate commercialization and scaling of innovative sustainable technology solutions for our oceans and coastal regions.',
     ],
