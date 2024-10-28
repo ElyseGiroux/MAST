@@ -1,0 +1,522 @@
+@import url(https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&family=Noto+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Noto+Sans+Mono:wght@100..900&display=swap);
+@import url(https://unpkg.com/font-awesome/css/font-awesome.min.css);
+:root {
+  --gcds-color-blue-100: #d7e5f5;
+  --gcds-color-blue-500: #6584a6;
+  --gcds-color-blue-700: #33465c;
+  --gcds-color-blue-750: #1e7b96;
+  --gcds-color-blue-800: #2b4380;
+  --gcds-color-blue-850: #0535d2;
+  --gcds-color-blue-900: #26374a;
+  --gcds-color-grayscale-0: #ffffff;
+  --gcds-color-grayscale-50: #f1f2f3;
+  --gcds-color-grayscale-100: #d6d9dd;
+  --gcds-color-grayscale-300: #a8adb4;
+  --gcds-color-grayscale-500: #7d828b;
+  --gcds-color-grayscale-700: #545961;
+  --gcds-color-grayscale-800: #43474e;
+  --gcds-color-grayscale-900: #333333;
+  --gcds-color-grayscale-1000: #000000;
+  --gcds-color-green-100: #e6f6ec;
+  --gcds-color-green-500: #289f58;
+  --gcds-color-green-700: #03662a;
+  --gcds-color-purple-700: #7532b8;
+  --gcds-color-orange-700: #be5a00;
+  --gcds-color-red-100: #fbddda;
+  --gcds-color-red-500: #d3080c;
+  --gcds-color-red-700: #a62a1e;
+  --gcds-color-red-900: #822117;
+  --gcds-color-red-flag: #ff0000;
+  --gcds-color-yellow-100: #faedd1;
+  --gcds-color-yellow-500: #b3800f;
+}
+
+:root {
+  --gcds-border-radius-sm: 0.1875rem;
+  --gcds-border-radius-md: 0.375rem;
+  --gcds-border-radius-lg: 3rem;
+  --gcds-border-radius-xl: 100%;
+  --gcds-border-width-sm: 0.0625rem;
+  --gcds-border-width-md: 0.125rem;
+  --gcds-border-width-lg: 0.25rem;
+  --gcds-border-width-xl: 0.375rem;
+  --gcds-border-default: #7d828b;
+  --gcds-active-background: #000000;
+  --gcds-active-text: #ffffff;
+  --gcds-bg-dark: #333333;
+  --gcds-bg-light: #f1f2f3;
+  --gcds-bg-primary: #26374a;
+  --gcds-bg-white: #ffffff;
+  --gcds-danger-background: #fbddda;
+  --gcds-danger-border: #d3080c;
+  --gcds-danger-text: #a62a1e;
+  --gcds-disabled-background: #d6d9dd;
+  --gcds-disabled-text: #545961;
+  --gcds-focus-background: #0535d2;
+  --gcds-focus-text: #ffffff;
+  --gcds-focus-text-form: #0535d2;
+  --gcds-link-default: #2b4380;
+  --gcds-link-hover: #0535d2;
+  --gcds-link-light: #ffffff;
+  --gcds-link-visited: #7532b8;
+  --gcds-text-light: #ffffff;
+  --gcds-text-primary: #333333;
+  --gcds-text-secondary: #43474e;
+  --gcds-container-xs: 20rem;
+  --gcds-container-sm: 30rem;
+  --gcds-container-md: 48rem;
+  --gcds-container-lg: 62rem;
+  --gcds-container-xl: 71.25rem;
+  --gcds-container-full: 100%;
+  --gcds-outline-width: 0.1875rem;
+  --gcds-spacing-0: 0;
+  --gcds-spacing-50: 0.1875rem;
+  --gcds-spacing-100: 0.375rem;
+  --gcds-spacing-150: 0.5625rem;
+  --gcds-spacing-200: 0.75rem;
+  --gcds-spacing-250: 0.9375rem;
+  --gcds-spacing-300: 1.125rem;
+  --gcds-spacing-400: 1.5rem;
+  --gcds-spacing-450: 2.25rem;
+  --gcds-spacing-500: 3rem;
+  --gcds-spacing-550: 3.75rem;
+  --gcds-spacing-600: 4.5rem;
+  --gcds-spacing-700: 6rem;
+  --gcds-spacing-800: 7.5rem;
+  --gcds-spacing-900: 9rem;
+  --gcds-spacing-1000: 10.5rem;
+  --gcds-base-font-size: 1.25;
+  --gcds-base-font-size-mobile: 1;
+  --gcds-base-line-height: 1.2;
+  --gcds-base-scale: 1.125;
+  --gcds-font-families-heading: "Lato", sans-serif;
+  --gcds-font-families-body: "Noto Sans", sans-serif;
+  --gcds-font-families-monospace: "Noto Sans Mono", monospace;
+  --gcds-font-families-icons: "Font Awesome 6 Free", FontAwesome;
+  --gcds-font-sizes-caption: 1.1111111111111112rem;
+  --gcds-font-sizes-caption-mobile: 0.8888888888888888rem;
+  --gcds-font-sizes-text: 1.25rem;
+  --gcds-font-sizes-text-mobile: 1rem;
+  --gcds-font-sizes-h6: 1.40625rem;
+  --gcds-font-sizes-h6-mobile: 1.125rem;
+  --gcds-font-sizes-h5: 1.58203125rem;
+  --gcds-font-sizes-h5-mobile: 1.265625rem;
+  --gcds-font-sizes-h4: 1.77978515625rem;
+  --gcds-font-sizes-h4-mobile: 1.423828125rem;
+  --gcds-font-sizes-h3: 2.00225830078125rem;
+  --gcds-font-sizes-h3-mobile: 1.601806640625rem;
+  --gcds-font-sizes-h2: 2.2525405883789062rem;
+  --gcds-font-sizes-h2-mobile: 1.802032470703125rem;
+  --gcds-font-sizes-h1: 2.5341081619262695rem;
+  --gcds-font-sizes-h1-mobile: 2.0272865295410156rem;
+  --gcds-font-weights-light: 300;
+  --gcds-font-weights-regular: 400;
+  --gcds-font-weights-medium: 500;
+  --gcds-font-weights-semibold: 600;
+  --gcds-font-weights-bold: 700;
+  --gcds-line-heights-caption: 135%;
+  --gcds-line-heights-caption-mobile: 140.625%;
+  --gcds-line-heights-text: 120%;
+  --gcds-line-heights-text-mobile: 150%;
+  --gcds-line-heights-h6: 124.44444444444444%;
+  --gcds-line-heights-h6-mobile: 133.33333333333334%;
+  --gcds-line-heights-h5: 126.41975308641975%;
+  --gcds-line-heights-h5-mobile: 138.27160493827162%;
+  --gcds-line-heights-h4: 126.41975308641973%;
+  --gcds-line-heights-h4-mobile: 122.90809327846364%;
+  --gcds-line-heights-h3: 124.85901539399482%;
+  --gcds-line-heights-h3-mobile: 124.85901539399481%;
+  --gcds-line-heights-h2: 122.08437060746162%;
+  --gcds-line-heights-h2-mobile: 124.85901539399481%;
+  --gcds-line-heights-h1: 118.38484422541731%;
+  --gcds-line-heights-h1-mobile: 123.31754606814303%;
+  --gcds-font-h1: 700 2.5341081619262695rem/118.38484422541731% "Lato",
+    sans-serif;
+  --gcds-font-h1-mobile: 700 2.0272865295410156rem/123.31754606814303% "Lato",
+    sans-serif;
+  --gcds-font-h2: 700 2.2525405883789062rem/122.08437060746162% "Lato",
+    sans-serif;
+  --gcds-font-h2-mobile: 700 1.802032470703125rem/124.85901539399481% "Lato",
+    sans-serif;
+  --gcds-font-h3: 700 2.00225830078125rem/124.85901539399482% "Lato", sans-serif;
+  --gcds-font-h3-mobile: 700 1.601806640625rem/124.85901539399481% "Lato",
+    sans-serif;
+  --gcds-font-h4: 700 1.77978515625rem/126.41975308641973% "Lato", sans-serif;
+  --gcds-font-h4-mobile: 700 1.423828125rem/122.90809327846364% "Lato",
+    sans-serif;
+  --gcds-font-h5: 700 1.58203125rem/126.41975308641975% "Lato", sans-serif;
+  --gcds-font-h5-mobile: 700 1.265625rem/138.27160493827162% "Lato", sans-serif;
+  --gcds-font-h6: 700 1.40625rem/124.44444444444444% "Lato", sans-serif;
+  --gcds-font-h6-mobile: 700 1.125rem/133.33333333333334% "Lato", sans-serif;
+  --gcds-font-label: 500 1.25rem/120% "Noto Sans", sans-serif;
+  --gcds-font-label-mobile: 500 1rem/150% "Noto Sans", sans-serif;
+  --gcds-font-caption: 400 1.1111111111111112rem/135% "Noto Sans", sans-serif;
+  --gcds-font-caption-mobile: 400 0.8888888888888888rem/140.625% "Noto Sans",
+    sans-serif;
+  --gcds-font-text: 400 1.25rem/120% "Noto Sans", sans-serif;
+  --gcds-font-text-mobile: 400 1rem/150% "Noto Sans", sans-serif;
+  --gcds-font-text-long: 400 1.25rem/150% "Noto Sans", sans-serif;
+  --gcds-font-text-long-mobile: 400 1rem/150% "Noto Sans", sans-serif;
+}
+
+:root {
+  --gcds-heading-character-limit-h1: 31ch;
+  --gcds-heading-character-limit-h2: 35ch;
+  --gcds-heading-character-limit-h3: 40ch;
+  --gcds-heading-character-limit-h4: 45ch;
+  --gcds-heading-character-limit-h5: 50ch;
+  --gcds-heading-character-limit-h6: 57ch;
+  --gcds-heading-default-text: #333333;
+  --gcds-heading-h1-border-background: #d3080c;
+  --gcds-heading-h1-border-height: 0.375rem;
+  --gcds-heading-h1-border-margin: 0.5625rem;
+  --gcds-heading-h1-border-width: 4.5rem;
+  --gcds-heading-h1-desktop: 700 2.5341081619262695rem/118.38484422541731%
+      "Lato",
+    sans-serif;
+  --gcds-heading-h1-mobile: 700 2.0272865295410156rem/123.31754606814303% "Lato",
+    sans-serif;
+  --gcds-heading-h2-desktop: 700 2.2525405883789062rem/122.08437060746162%
+      "Lato",
+    sans-serif;
+  --gcds-heading-h2-mobile: 700 1.802032470703125rem/124.85901539399481% "Lato",
+    sans-serif;
+  --gcds-heading-h3-desktop: 700 2.00225830078125rem/124.85901539399482% "Lato",
+    sans-serif;
+  --gcds-heading-h3-mobile: 700 1.601806640625rem/124.85901539399481% "Lato",
+    sans-serif;
+  --gcds-heading-h4-desktop: 700 1.77978515625rem/126.41975308641973% "Lato",
+    sans-serif;
+  --gcds-heading-h4-mobile: 700 1.423828125rem/122.90809327846364% "Lato",
+    sans-serif;
+  --gcds-heading-h5-desktop: 700 1.58203125rem/126.41975308641975% "Lato",
+    sans-serif;
+  --gcds-heading-h5-mobile: 700 1.265625rem/138.27160493827162% "Lato",
+    sans-serif;
+  --gcds-heading-h6-desktop: 700 1.40625rem/124.44444444444444% "Lato",
+    sans-serif;
+  --gcds-heading-h6-mobile: 700 1.125rem/133.33333333333334% "Lato", sans-serif;
+  --gcds-heading-spacing-0: 0;
+  --gcds-heading-spacing-50: 0.1875rem;
+  --gcds-heading-spacing-100: 0.375rem;
+  --gcds-heading-spacing-150: 0.5625rem;
+  --gcds-heading-spacing-200: 0.75rem;
+  --gcds-heading-spacing-250: 0.9375rem;
+  --gcds-heading-spacing-300: 1.125rem;
+  --gcds-heading-spacing-400: 1.5rem;
+  --gcds-heading-spacing-450: 2.25rem;
+  --gcds-heading-spacing-500: 3rem;
+  --gcds-heading-spacing-550: 3.75rem;
+  --gcds-heading-spacing-600: 4.5rem;
+  --gcds-heading-spacing-700: 6rem;
+  --gcds-heading-spacing-800: 7.5rem;
+  --gcds-heading-spacing-900: 9rem;
+  --gcds-heading-spacing-1000: 10.5rem;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration-style: underline;
+  text-decoration-color: currentColor;
+  text-decoration-thickness: var(--gcds-link-decoration-thickness);
+  text-underline-offset: var(--gcds-link-underline-offset);
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
+}
+
+@media (hover: hover) {
+  a:hover {
+    text-decoration-thickness: var(--gcds-link-hover-decoration-thickness);
+  }
+}
+
+a:visited:not(:focus):not([class*="link-light"]) {
+  color: var(--gcds-link-visited);
+}
+
+a:focus {
+  background-color: var(--gcds-focus-background);
+  color: var(--gcds-focus-text);
+  border-radius: var(--gcds-border-radius-sm);
+  -webkit-box-shadow: 0 0 0 var(--gcds-border-width-md) var(--gcds-focus-text);
+  box-shadow: 0 0 0 var(--gcds-border-width-md) var(--gcds-focus-text);
+  outline: var(--gcds-outline-width) solid var(--gcds-focus-background);
+  outline-offset: var(--gcds-border-width-md);
+  text-decoration: none;
+}
+
+body {
+  font: var(--gcds-font-text);
+  color: var(--gcds-text-primary);
+}
+
+@media only screen and (width < 48em) {
+  body {
+    font: var(--gcds-font-text-mobile);
+  }
+}
+
+button {
+  border: 0;
+  cursor: pointer;
+}
+
+code {
+  font-family: var(--gcds-font-families-monospace);
+}
+
+fieldset {
+  border: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-wrap: balance;
+}
+
+h1 {
+  font: var(--gcds-heading-h1-desktop);
+}
+
+h1:after {
+  display: block;
+  content: "";
+  width: var(--gcds-heading-h1-border-width);
+  -webkit-margin-before: var(--gcds-heading-h1-border-margin);
+  margin-block-start: var(--gcds-heading-h1-border-margin);
+  height: var(--gcds-heading-h1-border-height);
+  background-color: var(--gcds-heading-h1-border-background);
+}
+
+@media only screen and (width < 48em) {
+  h1 {
+    font: var(--gcds-heading-h1-mobile);
+  }
+}
+
+h2 {
+  font: var(--gcds-heading-h2-desktop);
+}
+
+@media only screen and (width < 48em) {
+  h2 {
+    font: var(--gcds-heading-h2-mobile);
+  }
+}
+
+h3 {
+  font: var(--gcds-heading-h3-desktop);
+}
+
+@media only screen and (width < 48em) {
+  h3 {
+    font: var(--gcds-heading-h3-mobile);
+  }
+}
+
+h4 {
+  font: var(--gcds-heading-h4-desktop);
+}
+
+@media only screen and (width < 48em) {
+  h4 {
+    font: var(--gcds-heading-h4-mobile);
+  }
+}
+
+h5 {
+  font: var(--gcds-heading-h5-desktop);
+}
+
+@media only screen and (width < 48em) {
+  h5 {
+    font: var(--gcds-heading-h5-mobile);
+  }
+}
+
+h6 {
+  font: var(--gcds-heading-h6-desktop);
+}
+
+@media only screen and (width < 48em) {
+  h6 {
+    font: var(--gcds-heading-h6-mobile);
+  }
+}
+
+hr {
+  border: 1px solid var(--gcds-color-grayscale-300);
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+body,
+html {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+img {
+  max-width: 100%;
+}
+
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+p {
+  font: var(--gcds-font-text);
+}
+
+@media only screen and (width < 48em) {
+  p {
+    font: var(--gcds-font-text-mobile);
+  }
+}
+
+small {
+  font: var(--gcds-font-caption);
+}
+
+@media only screen and (width < 48em) {
+  small {
+    font: var(--gcds-font-caption-mobile);
+  }
+}
+
+strong {
+  font-weight: var(--gcds-font-weights-bold);
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+main {
+  max-width: var(--gcds-header-container-max-width);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Content spacing based on Canada.ca and GC Design System guidelines */
+
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+h1 {
+  margin-top: 0.67em;
+}
+
+/* Paragraphs */
+p {
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+
+/* Lists */
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 1em;
+  padding-left: 2em;
+}
+
+li {
+  margin-bottom: 0.5em;
+}
+
+/* Sections */
+section {
+  margin-bottom: 2em;
+}
+
+/* Tables */
+table {
+  margin-bottom: 1em;
+}
+
+/* Images */
+img {
+  margin-bottom: 1em;
+}
+
+/* Blockquotes */
+blockquote {
+  margin: 1em 0;
+  padding: 0.5em 1em;
+  border-left: 4px solid #ccc;
+}
+
+/* Horizontal rules */
+hr {
+  margin: 2em 0;
+}
+
+/* Links */
+a {
+  padding: 0.2em 0;
+}
+
+/* Buttons */
+button,
+.button {
+  margin: 0.5em 0;
+}
+
+/* Form elements */
+input,
+select,
+textarea {
+  margin-bottom: 1em;
+}
+
+/* Alert boxes */
+.alert,
+.callout {
+  margin-bottom: 1em;
+  padding: 1em;
+}
+
+.badge-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--gcds-spacing-200);
+  margin-bottom: var(--gcds-spacing-400);
+}
+
+.badge-container div {
+  border-radius: var(--gcds-border-radius-lg);
+  border: var(--gcds-border-width-sm) solid var(--gcds-color-grayscale-300);
+  padding: var(--gcds-spacing-200) var(--gcds-spacing-300);
+  background-color: var(--gcds-color-red-500);
+  color: var(--gcds-color-grayscale-0);
+}
+
+.first-letter-bold::first-letter {
+  font-weight: bold;
+}
