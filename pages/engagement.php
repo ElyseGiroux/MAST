@@ -24,7 +24,10 @@
     <ul>
       <?php foreach ($lang['pages']['engagement']['how-we-will-use-your-input-descriptions'] as $description) : ?>
         <li>
-          <?php echo $description; ?>
+          <?php 
+            $words = explode(' ', $description);
+            echo '<strong>' . $words[0] . '</strong> ' . implode(' ', array_slice($words, 1));
+          ?>
         </li>
       <?php endforeach; ?>
     </ul>

@@ -31,7 +31,7 @@
         'purpose-description' => 'Translate complex policy frameworks into actionable strategies.',
         'purpose-description-2' => 'Bridge the gap between theoretical policy guidelines and their real-world application, ensuring established requirements are met with innovative, practical solutions that align with the goals of marine sustainability.',
         'core-values' => 'Core Values',
-        'core-values-badge-1' => 'Test,',
+        'core-values-badge-1' => 'Test',
         'core-values-badge-2' => 'Validate',
         'core-values-badge-3' => 'Iterate',
         'core-values-word-1' => 'Action',
