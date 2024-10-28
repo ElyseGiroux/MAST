@@ -62,11 +62,12 @@ if (!file_exists($pageFile)) {
         <script nomodule src="https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-components@0.26.2/dist/gcds/gcds.js"></script>
         <link rel="stylesheet" href="https://unpkg.com/@cdssnc/gcds-components@latest/dist/gcds/gcds.css" />
 
-        <link rel="stylesheet" href="/css/style.css" />
+        <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/style.css" />
     </head>
     <body>
         <?php include 'components/header.php'; ?>
         <main>
+            <h1><?php echo $environment; ?></h1>
             <?php include $pageFile; ?>
             <?php include 'components/date-modified.php'; ?>
         </main>
