@@ -1,7 +1,7 @@
 <?php
 return [
     'meta' => [
-      'date-modified' => '2024-10-28',
+      'date-modified' => '2024-10-29',
       'title' => 'Accélérateur marin pour les technologies durables',
       'description' => 'Dédié à la mise en œuvre de l\'impact de la communauté canadienne de spécialistes en technologies maritimes, chercheurs, entrepreneurs et membres de l\'industrie pour accélérer la commercialisation et l\'échelle des solutions technologiques durables innovantes pour nos océans et régions côtières.',
     ],
