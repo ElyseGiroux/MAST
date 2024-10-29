@@ -63,6 +63,7 @@ if (!file_exists($pageFile)) {
         <link rel="stylesheet" href="https://unpkg.com/@cdssnc/gcds-components@latest/dist/gcds/gcds.css" />
 
         <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/style.css" />
+        <?php include 'components/analytics.php'; ?>
     </head>
     <body>
         <?php include 'components/header.php'; ?>
