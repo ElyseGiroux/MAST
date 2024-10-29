@@ -12,11 +12,11 @@ if (file_exists(__DIR__ . '/.env')) {
 $environments = [
     'production' => [
         'url' => 'https://internet.dfo-mpo.gc.ca',
-        'base_path' => '/marine-accelerator-for-sustainable-technologies'
+        'base_path' => '/mast'
     ],
     'development' => [
         'url' => 'http://internet.local',
-        'base_path' => '/marine-accelerator-for-sustainable-technologies'
+        'base_path' => '/mast'
     ]
 ];
 
