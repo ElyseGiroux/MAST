@@ -67,7 +67,6 @@ if (!file_exists($pageFile)) {
     <body>
         <?php include 'components/header.php'; ?>
         <main>
-            <h1><?php echo $environment; ?></h1>
             <?php include $pageFile; ?>
             <?php include 'components/date-modified.php'; ?>
         </main>
