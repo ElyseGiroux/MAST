@@ -15,8 +15,8 @@ $environments = [
         'base_path' => '/marine-accelerator-for-sustainable-technologies'
     ],
     'development' => [
-        'url' => 'http://state-of-marine-decarbonization.local',
-        'base_path' => ''
+        'url' => 'http://internet.local',
+        'base_path' => '/marine-accelerator-for-sustainable-technologies'
     ]
 ];
 
