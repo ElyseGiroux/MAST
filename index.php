@@ -62,6 +62,7 @@ if (!file_exists($pageFile)) {
         <script nomodule src="https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-components@0.26.2/dist/gcds/gcds.js"></script>
         <link rel="stylesheet" href="https://unpkg.com/@cdssnc/gcds-components@latest/dist/gcds/gcds.css" />
 
+        <link rel="icon" href="<?php echo BASE_URL; ?>/img/favicon.ico" type="image/x-icon">
         <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/style.css" />
         <?php include 'components/analytics.php'; ?>
     </head>
