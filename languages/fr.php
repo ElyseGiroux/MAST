@@ -18,7 +18,7 @@ return [
       'marine-accelerator-for-sustainable-technologies' => [
         'read-more-about-our-framework' => 'Cliquez sur les onglets ci-dessous pour en savoir plus sur notre cadre',
         'title' => 'Accélérateur Maritime pour les Technologies Durables (MAST)',
-        'description' => 'Dédié à exploiter l\'impact de la communauté canadienne d\'experts en technologies maritimes, de chercheurs, d\'entrepreneurs et de membres de l\'industrie pour accélérer la commercialisation et le développement à grande échelle de solutions technologiques durables innovantes pour nos océans et nos régions côtières',
+        'description' => 'Dédié à exploiter l\'impact de la communauté canadienne d\'experts en technologies maritimes, de chercheurs, d\'entrepreneurs et de membres de l\'industrie pour accélérer la commercialisation et le développement à grande échelle de solutions technologiques durables innovantes pour nos océans et nos régions côtières.',
         'description-2' => 'MAST unit des talents, des idées et des ressources dans un réseau de membres et de participants internationaux, visant des résultats prioritaires communs grâce à une innovation intégrée et axée sur les résultats.',
         'vision' => 'Vision',
         'vision-badge-1' => 'Flexible',
@@ -55,7 +55,7 @@ return [
         'challenges' => [
          'La GCC dépend des combustibles fossiles pour alimenter sa flotte. Avec une consommation annuelle de plus de 60 millions de litres de diesel, la flotte génère plus de 170 000 tonnes de CO2. Plus de la moitié de ces émissions provient de nos dix plus grands navires. Sans intervention proactive, les émissions de la GCC augmenteront considérablement en raison du renouvellement de la flotte.',
          'Les émissions de CO2 de l\'industrie maritime sont considérées comme "difficiles à atténuer". La haute densité énergétique et la disponibilité des combustibles fossiles ont enraciné leur utilisation dans les applications maritimes.',   
-          'Avec un mandat incluant le sauvetage de vies, la primauté des opérations de la Garde côtière ne doit pas être compromise en poursuivant des carburants alternatifs et des initiatives de lutte contre le changement climatique',
+          'Avec un mandat incluant le sauvetage de vies, la primauté des opérations de la Garde côtière ne doit pas être compromise en poursuivant des carburants alternatifs et des initiatives de lutte contre le changement climatique.',
         ],
         'shifting-towards-low-carbon-fuels' => 'Passage aux Combustibles à Faible Carbone',
         'low-carbon-fuels' => [
@@ -69,7 +69,7 @@ return [
         'next-gen-feasibility' => [
           'Les carburants à faible teneur en carbone offrent jusqu\'à 80 % de réduction des émissions, mais atteindre le zéro net nécessite des solutions sans émission pour assurer la prestation de services et de programmes.',
           'La GCC s\'engage à explorer de nouveaux carburants respectueux du climat, notamment les hybrides, l\'hydrogène, les porteurs d\'hydrogène et le nucléaire pour les futurs navires et/ou les prolongations de vie des navires.',
-          'Pour atteindre le zéro net tout en maintenant et en améliorant la préparation et la performance opérationnelles, sans compter sur des compensations de GES, la GCC doit progressivement passer à des actifs sans émissions. Cela nécessitera des avancées significatives dans les technologies de nouvelle génération, qui doivent être informées et influencées par les exigences opérationnelles à court et à long terme de la GCC. Le développement des voies de nouvelle génération nécessitera une innovation collaborative pour améliorer l\'efficacité, poursuivre des navires zéro émission et informer la conception future de la prestation de services',
+          'Pour atteindre le zéro net tout en maintenant et en améliorant la préparation et la performance opérationnelles, sans compter sur des compensations de GES, la GCC doit progressivement passer à des actifs sans émissions. Cela nécessitera des avancées significatives dans les technologies de nouvelle génération, qui doivent être informées et influencées par les exigences opérationnelles à court et à long terme de la GCC. Le développement des voies de nouvelle génération nécessitera une innovation collaborative pour améliorer l\'efficacité, poursuivre des navires zéro émission et informer la conception future de la prestation de services.',
         ],
         'enabling-federal-partners' => 'Faciliter les Partenaires Fédéraux',
         'federal-partners' => [
@@ -147,7 +147,7 @@ return [
         'description' => 'La Garde côtière canadienne vise à atteindre l\'innovation par la collaboration. Une priorité de notre approche est d\'explorer et d\'évaluer les nouvelles technologies et les capacités émergentes, ainsi que leur impact sur la prestation des services et des programmes. Cela inclut le suivi, le test, la validation et la démonstration des avancées en matière d\'énergie durable, d\'applications de réseaux intelligents et de technologies de communication maritime, dans le but d\'améliorer la durabilité, la résilience et l\'efficacité opérationnelle au sein des opérations et dans l\'ensemble du secteur maritime. L\'établissement d\'une boucle de rétroaction pour les tests, les essais et les rapports est un élément essentiel pour comprendre comment nous pouvons ensemble passer à un nouveau paradigme.',
         'call-to-action' => 'Appel à l\'Action',
         'why-we-need-your-input' => 'Pourquoi nous avons besoin de vos retours',
-        'why-we-need-your-input-description' => 'Établir un investissement concret et durable dans les technologies durables et leur acquisition est un objectif critique pour le développement et la modernisation des forces. Les efforts autour du développement de nouvelles technologies, de la réglementation, des approches et des systèmes sont dispersés et résident dans des secteurs qui ne sont pas toujours pleinement intégrés à l\'intérieur et à l\'extérieur du secteur maritime',
+        'why-we-need-your-input-description' => 'Établir un investissement concret et durable dans les technologies durables et leur acquisition est un objectif critique pour le développement et la modernisation des forces. Les efforts autour du développement de nouvelles technologies, de la réglementation, des approches et des systèmes sont dispersés et résident dans des secteurs qui ne sont pas toujours pleinement intégrés à l\'intérieur et à l\'extérieur du secteur maritime.',
         'how-we-will-use-your-input' => 'Comment nous utiliserons vos retours',
         'how-we-will-use-your-input-descriptions' => [
             'Accélérer les progrès vers des cibles d\'innovation quantifiées grâce à la collaboration et à l\'échange de connaissances entre experts en technologies maritimes, innovateurs, fabricants et opérateurs.',

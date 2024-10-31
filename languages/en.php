@@ -41,7 +41,7 @@
       'state-of-marine-decarbonization' => [
         'title' => 'State of Marine Decarbonization',
         'description' => 'Canadian Coast Guard (CCG) plays a critical role in ensuring the safety of Canada’s waters and the maritime security of our nation. To sustain and improve operational capabilities and excel in fulfilling CCG’s mandate of today and tomorrow, it is essential that CCG take a strategic approach to power and energy transition, and the technical readiness required to enable operational readiness and performance.',
-        'description-2' => 'CCG aspires to create a future where our operations are powered by clean, renewable, and secure energy, we continuously improve our operational efficiency, and we promote interoperable sustainable practices and technologies across the maritime secto.',
+        'description-2' => 'CCG aspires to create a future where our operations are powered by clean, renewable, and secure energy, we continuously improve our operational efficiency, and we promote interoperable sustainable practices and technologies across the maritime sector.',
         'current-state' => 'Current State',
         'current-state-description' => 'The strategic approach and decarbonization objectives are designed to set CCG on the path of optimized, independent, secure, and responsible energy use. This includes reduced consumption of and reliance on fossil fuels, and adopting energy systems that increase operational flexibility, readiness, and resilience.',
         'ofdp-title' => 'Canadian Coast Guard’s Operational Fleet Decarbonization Plan (OFDP)',
@@ -146,10 +146,10 @@
       ],
       'engagement' => [
         'title' => 'Engagement',
-        'description' => 'The Canadian Coast Guard aims to achieve innovation through collaboration. A core emphasis of our approach is to explore and assess new technologies and emerging capabilities, and how they affect the delivery of services and programs. This involves tracking, testing, validating, and demonstrating advancements in sustainable energy, smart grid applications, and maritime communication technologies, with the objective of boosting sustainability, resilience and enhancing operational efficiency within operations and across the marine sector. Establishing a feedback loop for testing, trialing and reporting are critical elements to understand how we can transition into a new paradigm, together',
+        'description' => 'The Canadian Coast Guard aims to achieve innovation through collaboration. A core emphasis of our approach is to explore and assess new technologies and emerging capabilities, and how they affect the delivery of services and programs. This involves tracking, testing, validating, and demonstrating advancements in sustainable energy, smart grid applications, and maritime communication technologies, with the objective of boosting sustainability, resilience and enhancing operational efficiency within operations and across the marine sector. Establishing a feedback loop for testing, trialing and reporting are critical elements to understand how we can transition into a new paradigm, together.',
         'call-to-action' => 'Call to Action',
         'why-we-need-your-input' => 'Why We Need Your Input',
-        'why-we-need-your-input-description' => 'Establishing concrete and long-lasting investment in and procurement of sustainable technologies is a critical goal for force development and modernization. Efforts around the development of new technologies, regulation, approaches, and systems is diffuse and resides in sectors not always fully integrated inside and outside the maritime sector',
+        'why-we-need-your-input-description' => 'Establishing concrete and long-lasting investment in and procurement of sustainable technologies is a critical goal for force development and modernization. Efforts around the development of new technologies, regulation, approaches, and systems is diffuse and resides in sectors not always fully integrated inside and outside the maritime sector.',
         'how-we-will-use-your-input' => 'How We Will Use Your Input',
         'how-we-will-use-your-input-descriptions' => [
           'Drive accelerated progress toward quantified innovation targets through collaboration and knowledge exchange among marine technology experts, innovators, manufacturers, and operators.',
