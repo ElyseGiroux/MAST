@@ -9,9 +9,7 @@ return [
       'header' => [
         'fisheries-and-oceans-canada' => 'Pêches et Océans Canada',
         'state-of-marine-decarbonization' => 'État de la décarbonisation maritime',
-        'marine-decarbonization' => 'Décarbonisation maritime',
-        'provide-feedback' => 'Contribuer',
-        'feedback-link' => 'https://forms-formulaires.alpha.canada.ca/fr/id/cm1tn5yvb000otz3kmffqc6xq',
+        'marine-decarbonization' => 'Décarbonisation maritime'
       ],
     ],
     'pages' => [
@@ -157,7 +155,8 @@ return [
           ],
         'feedback' => 'Contributions',
         'feedback-description' => 'Nous apprécions vos contributions! Veuillez partager vos idées et suggestions pour nous aider à nous améliorer.',
-        'coming-soon' => 'Formulaire à venir',
+        'provide-feedback' => 'Contribuer',
+        'feedback-link' => 'https://forms-formulaires.alpha.canada.ca/fr/id/cm2ovaxkg000076hw7ej9uk45'
       ],
     ],
 ];

@@ -40,9 +40,9 @@
       <?php echo $lang['pages']['engagement']['feedback-description']; ?>
     </p>
     <p>
-      <i class="fas fa-exclamation-triangle"></i>
-      <?php echo $lang['pages']['engagement']['coming-soon']; ?>
-      </i>
+      <a href="<?php echo $lang['pages']['engagement']['feedback-link'] ?>">
+        <?php echo $lang['pages']['engagement']['provide-feedback'] ?>
+      </a>
     </p>
   </section>
 </gcds-container>
